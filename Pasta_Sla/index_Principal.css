@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+body {
+    background-image: linear-gradient(to right, #00B14A, #008F3C, #006D2D);
+    font-family: "Palanquin Dark", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: #e4e4e4;
+    height: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0px;
+    
+}
+header > h1 {
+    margin-left: 15px;
+    color: black;
+    text-shadow: 3px 3px 3px rgb(136, 136, 136);
+    text-align: left;
+
+}
+header > h1 > a {
+    color: black;
+}
+header > h1 > a:hover {
+    color: #06aa4a;
+    text-shadow: 3px 3px 3px #02883a65;
+
+}
+main {
+    background-color: white;
+    height: 550%;
+    padding: 30px;
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 10px 10px 10px #015724;
+
+}
+#TituloPrincipal {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: #00DB5B;
+    font-size: 43px; 
+    font-weight: bolder;
+}
+main > h1 {
+    font-family: "Palanquin Dark", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #00DB5B;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 23px;
+    color: black;
+}
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+.Botao {
+    background-color: #00D358;
+    padding: 10px;
+    margin: auto;
+    width: 10%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #006D2D;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.Nav {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 50px;
+}
+.Nav:hover {
+    color: #00B14A;
+    text-decoration: underline;   
+}
+.Botao:hover {
+    background-color: #008F3C;
+}
+.Botao1:hover {
+    background-color: #008F3C;
+}
+footer {
+    background-image: linear-gradient(to right, #118C44, #08401F);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px #073319;
+
+}
+footer > h4 {
+    color: white;
+    width: 120px;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+}
+footer > h4:hover {
+    color: #12d463;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
