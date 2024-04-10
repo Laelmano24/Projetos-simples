@@ -14,9 +14,9 @@ header {
     
 }
 header > h1 {
-    margin-left: 15px;
+    padding: 0px 15px;
     color: black;
-    text-shadow: 3px 3px 3px rgb(136, 136, 136);
+    text-shadow: 3px 3px 10px #696969;
     text-align: left;
 
 }
@@ -25,13 +25,13 @@ header > h1 > a {
 }
 header > h1 > a:hover {
     color: #06aa4a;
-    text-shadow: 3px 3px 3px #02883a65;
+    text-shadow: none;
 
 }
 main {
     background-color: white;
     height: 550%;
-    padding: 30px;
+    padding: 50px;
     margin: auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -67,7 +67,7 @@ p {
     background-color: #00D358;
     padding: 10px;
     margin: auto;
-    width: 10%;
+    width: 80px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #006D2D;
 }
@@ -79,7 +79,6 @@ a {
     color: black;
     font-weight: bolder;
     text-align: center;
-    margin-right: 50px;
 }
 .Nav:hover {
     color: #00B14A;
@@ -113,4 +112,3 @@ footer > h4:hover {
     font-size: 16px;
     font-weight: bolder;
 }
-
