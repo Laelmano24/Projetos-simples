@@ -3,57 +3,54 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Candal&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Encode+Sans+SC:wght@100..900&family=Galada&family=Galindo&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=M+PLUS+1+Code:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Palanquin+Dark:wght@400;500;600;700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Telex&display=swap');
 @font-face {
-  font-family: 'idroid';
+  font-family: 'Android';
   src: url(idroid.otf) format(opentype);
 }
 :root {
-  --cor1: #8AFFC6;
+  --cor1: #A1FFD1D9;
   --cor2: #00F27D;
   --cor3: #21C877;
   --cor4: #349D6B;
-  --cor5: #008F4A;
+  --cor5: #005D30;
+  --FontAndroid: 'Android', Arial, Helvetica, sans-serif;
+  --FontPrincipal: "Montserrat", Arial, Helvetica, sans-serif;
 }
 * {
-  margin: ;
+  margin: 0px;
+  padding: 0px;
 }
 body {
   background-color: var(--cor1);
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-h1 {
-  text-align: left;
-}
-h2 {
-  background-image: linear-gradient(to right, #3BD57F82, white 70%);
-  text-align: left;
 }
 header {
   background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
-  padding: 30px 30px 5px 30px;
+  text-align: center;
+  margin: 0px;
+  min-height: 150px;
+  padding: 40px 10px 0px 10px;
 }
 header > h1 {
   color: white;
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  text-align: center;
+  font-family: var(--FontPrincipal);
   font-weight: 450;
+  margin-bottom: 20px;
 }
 header > p {
   color: white;
   text-align: center;
-  font-weight: 300;
-  padding-bottom: 30px;
+  font-weight: 0;
+  padding-bottom: 0px;
 }
 nav {
   background-color: var(--cor5);
-  text-align: left;
-  max-width: 800px;
-  min-height: 300px;
-  padding: 10px;
+  margin: 0px;
+  padding: 10px
 }
 nav > a {
   color: white;
   font-family: "Palanquin Dark", Arial, Helvetica, sans-serif;
+  padding: 10px;
   font-weight: 400;
   text-decoration: none;
 }
@@ -65,46 +62,81 @@ nav > a:hover {
 }
 main {
   background-color: white;
+  padding: 12px;
   margin: auto;
   max-width: 800px;
   min-width: 300px;
 }
-section {
-  color: #1D683D;
-  padding: 10px;
-  font-family: 'idroid', Arial, Helvetica, sans-serif;
-}
-section > p {
-  color: Black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  text-align: justify;
-}
-article > h1{
-  font-family: 'idroid', Arial, Helvetica, sans-serif;
-  font-size: 10px;
+article > h1 {
+  font-family: var(--FontAndroid);
+  color: var(--cor5);
   text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+article > h2 {
+  background-image: linear-gradient(to right, #3BD57F82, white 70%);
+  font-family: var(--FontAndroid);
+  color: var(--cor5);
+  font-family: 17px;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 article > p {
-  font-family: Arial, Helvetica, sans-serif;
   color: Black;
-  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
   text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+aside > article {
+  background-color: var(--cor1);
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+aside > h1 {
+  color: white;
+  background-color: var(--cor3);
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 20px;
+  padding: 12px;
+}
+aside > p {
+  color: black;
+  font-weight: 500;
+}
+aside > ol {
+  color: black;
+  text-align: left;
 }
 footer {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  background-color: var(--cor4);
   max-width: 800px;
   min-width: 300px;
   margin: auto;
-  padding: 1px;
-  background-color: var(--cor4);
-  font-size: 13px;
-  text-align: center;
-  font-weight: 400;
+  padding: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+footer > p {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 400;
+}
 img {
+  display: block;
+  margin: auto;
   width: 100%;
+}
+img > .pequena {
+  display: block;
+  margin: auto;
+  width: 50%;
 }
