@@ -7,7 +7,7 @@
   src: url(idroid.otf) format(opentype);
 }
 :root {
-  --cor1: #A1FFD1D9;
+  --cor1: #6BFFB7D9;
   --cor2: #00F27D;
   --cor3: #21C877;
   --cor4: #349D6B;
@@ -92,7 +92,7 @@ article > p {
   margin-bottom: 15px;
 }
 aside > article {
-  background-color: var(--cor1);
+  background-color: #BFFFE0A8;
   padding: 15px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
