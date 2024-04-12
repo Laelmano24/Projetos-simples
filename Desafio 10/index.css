@@ -47,6 +47,8 @@ header > p {
 nav {
   background-color: var(--cor5);
   text-align: left;
+  max-width: 800px;
+  min-height: 300px;
   padding: 10px;
 }
 nav > a {
