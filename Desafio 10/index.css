@@ -6,8 +6,18 @@
   font-family: 'idroid';
   src: url(idroid.otf) format(opentype);
 }
+:root {
+  --cor1: #8AFFC6;
+  --cor2: #00F27D;
+  --cor3: #21C877;
+  --cor4: #349D6B;
+  --cor5: #008F4A;
+}
+* {
+  margin: ;
+}
 body {
-  background-color: #6FD99D;
+  background-color: var(--cor1);
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -19,8 +29,7 @@ h2 {
   text-align: left;
 }
 header {
-  background-image: linear-gradient(to bottom, #3BD57F, #1D683D);
-  margin: -10px -10px 0px -10px;
+  background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
   padding: 30px 30px 5px 30px;
 }
 header > h1 {
@@ -35,22 +44,28 @@ header > p {
   font-weight: 300;
   padding-bottom: 30px;
 }
-header > nav {
-  margin-left: -10px;
+nav {
+  background-color: var(--cor5);
   text-align: left;
+  padding: 10px;
 }
-header > nav > a {
+nav > a {
   color: white;
   font-family: "Palanquin Dark", Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-decoration: none;
 }
-header > nav > a:hover {
-  color: #c0c0c081;
+nav > a:hover {
+  color: #FFFFFFDB;
+  font-family: "Palanquin Dark", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-decoration: none;
 }
 main {
   background-color: white;
-  margin: 0px 1%;
+  margin: auto;
+  max-width: 800px;
+  min-width: 300px;
 }
 section {
   color: #1D683D;
@@ -74,45 +89,20 @@ article > p {
   font-weight: bold;
   text-align: justify;
 }
-.Lista > h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: white;
-    background-color: #278A52;
-    padding: 8px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.Lista > aside > p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    color: black;
-    font-weight: 400;
-}
-.Lista > aside > ol {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: left;
-}
-aside {
-    background-color: #a4ffccfd;
-    margin-top: -18px;
-    padding: 10px;
-    border-radius: 0px 0px 10px 10px;
-}
 footer {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  margin: 0px 1%;
-  background-color: #1D683D;
-  font-size: 13px;
+  max-width: 800px;
+  min-width: 300px;
+  margin: auto;
   padding: 1px;
+  background-color: var(--cor4);
+  font-size: 13px;
   text-align: center;
   font-weight: 400;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-span {
-  font-weight: bolder;
-}
-picture {
-  
+img {
+  width: 100%;
 }
