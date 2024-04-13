@@ -141,5 +141,18 @@ img {
 img > .pequena {
   display: block;
   margin: auto;
-  width: 50%;
+  min-width: 320px;
+}
+div.video {
+  background-color: var(--cor4);
+  padding: 20px;
+  position: relative;
+  padding-bottom: 42%;
+}
+div.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
