@@ -148,6 +148,7 @@ div.video {
   padding: 20px;
   position: relative;
   padding-bottom: 42%;
+  margin-bottom: 15px;
 }
 div.video > iframe {
   position: absolute;
