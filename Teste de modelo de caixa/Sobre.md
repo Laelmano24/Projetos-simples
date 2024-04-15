@@ -1,1 +1,1 @@
-
+Esse mini projeto foi para ver se tinha conhecimento com modelo de caixa no css, mas isso não é nada avançado, só é conhecido básico e não modifiquei o projeto quando obtive mais conhecimento.
