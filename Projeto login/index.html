@@ -4,11 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Projeto login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-
 <body>
-
+  <main>
+    <section class="login-container">
+      <div class="image">
+        
+      </div>
+      <div class="formulario">
+        <h1>Login</h1>
+        <p>Seja bem vindo(a)</p>
+        <form action="index.php" method="pos
+              " autocomplete="on">
+          <div class="campo">
+            <span class="material-symbols-outlined">person</span>
+            <input type="email" name="email" id="iemail" required autocomplete="email" maxlength="30" placeholder="seu email aqui">
+            
+          </div>
+          <div class="campo">
+            <span class="material-symbols-outlined">vpn_key</span>
+            <input type="password" name="senha" id="isenha" required autocomplete="current-password" minlength="8" maxlength="15" placeholder="sua senha aqui">
+            
+          </div>
+          <input type="submit" value="Entrar">
+          <a href="#" class="esqueci-button">Esqueci senha</a>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
-
 </html>

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*
+    paleta de cores:
+    Verde: #49a09d;
+    Lilás: #5f2c82;
+*/
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body, main {
+  background: #5f2c82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.login-container {
+  background: #fff;
+  height: 500px;
+  width: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #232323;
+}
+.image {
+  background: url("image/imagem.jpg") no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  height: 200px;
+  
+}
+.formulario {
+  padding: 10px;
+}
+input[type=submit] {
+  display: block;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  background: #49a09d;
+  border: none;
+  padding: 10px 0px;
+  width: 100%;
+  margin: 12px 0px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+input[type=submit]:hover {
+  background: #296462;
+}
+.esqueci-button {
+  display: block;
+  width: 100%;
+  padding: 10px 0px;
+  border: 2px solid #49a09d;
+  color: black;
+  font-weight: bolder;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.esqueci-button:hover {
+  background: #8CF6F2;
+  border: 2px solid #8CF6F2;
+  color: white;
+}
+input {
+  background: #21FFA9;
+  border: none;
+  padding: 7px 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+  width: calc(100% - 40px);
+  transition: .4s;
+}
+input:focus-within {
+  background: #E3E3E3;
+}
+.campo {
+  display: flex;
+  align-items: center;
+  gap: 0px 0px 20px 0px;
+  margin: 10px 0px 0px 0px;
+}
+.material-symbols-outlined {
+  color: black;
+  
+  padding: 5px;
+  width: 30px;
+}
